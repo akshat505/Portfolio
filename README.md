@@ -2,7 +2,7 @@
 
 My personal portfolio website. It shows my technical skills, projects and contact details.
 
-**Live site:** https://akshat505.github.io
+**Live site:** https://akshat505.github.io/Portfolio/
 
 ## Sections
 - **About:** introduction with a typing animation and links to my resume and social profiles
