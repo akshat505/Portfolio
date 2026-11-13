@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Akshat Jain - Web Developer & Python Developer portfolio" />
+    <title>Akshat Jain | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <nav>
+        <a href="#about" class="logo">Akshat<span>.</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        <ul id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#myskills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ============ Hero / About ============ -->
+      <section class="firstSection" id="about">
+        <div class="leftSection reveal">
+          <p class="hello">Hi, my name is</p>
+          <h1 class="name">Akshat Jain</h1>
+          <h2 class="role">I'm a <span id="element"></span></h2>
+          <p class="bio">
+            Web Developer with 3 years of experience building user-friendly, responsive websites using
+            HTML, CSS and JavaScript, and backend &amp; data projects with Python. I enjoy turning ideas
+            into clean, fast and engaging online experiences.
+          </p>
+          <div class="social-links">
+            <a href="http://www.linkedin.com/in/akshat-jain-5a17a2301" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:akshat01.aj@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            <a href="tel:9310037371" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+          <div class="btn-group">
+            <a href="CV akshat.pdf" target="_blank" class="btn-primary"><i class="fa-solid fa-download"></i> My Resume</a>
+            <a href="#contact" class="btn-outline">Hire Me</a>
+          </div>
+        </div>
+        <div class="rightSection reveal">
+          <div class="photo-ring">
+            <img src="profile.png" alt="Akshat Jain" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Skills ============ -->
+      <section class="Skills" id="myskills">
+        <h2 class="section-title reveal">Technical <span>Expertise</span></h2>
+        <div class="container">
+          <div class="card reveal">
+            <h3><span class="logo-box"><img src="python.jpg" alt="Python logo" /></span> Python</h3>
+            <p>Writing clean, efficient Python for automation, data handling, backend logic and AI applications.</p>
+            <div class="skill-meter"><span>Proficiency</span><span class="skill-bar-text">90%</span></div>
+            <div class="skill-bar"><div class="progress-bar" data-width="90"></div></div>
+          </div>
+
+          <div class="card reveal">
+            <h3><span class="logo-box"><i class="fa-solid fa-robot" style="color:#10a37f"></i></span> AI</h3>
+            <p>Working with AI models, Large Language Models (LLMs) and AI tools to build smart, practical solutions.</p>
+            <div class="tags"><span>AI Models</span><span>LLMs</span><span>AI Tools</span></div>
+            <div class="skill-meter"><span>Proficiency</span><span class="skill-bar-text">85%</span></div>
+            <div class="skill-bar"><div class="progress-bar" data-width="85"></div></div>
+          </div>
+
+          <div class="card reveal">
+            <h3><span class="logo-box"><i class="fa-brands fa-docker" style="color:#2496ed"></i></span> Docker</h3>
+            <p>Containerizing applications with Docker for consistent, portable and easy-to-deploy environments.</p>
+            <div class="skill-meter"><span>Proficiency</span><span class="skill-bar-text">80%</span></div>
+            <div class="skill-bar"><div class="progress-bar" data-width="80"></div></div>
+          </div>
+
+          <div class="card reveal">
+            <h3><span class="logo-box"><i class="fa-solid fa-database" style="color:#e38c00"></i></span> SQL</h3>
+            <p>Designing databases and writing queries to store, manage and analyse data efficiently.</p>
+            <div class="skill-meter"><span>Proficiency</span><span class="skill-bar-text">95%</span></div>
+            <div class="skill-bar"><div class="progress-bar" data-width="95"></div></div>
+          </div>
+
+          <div class="card reveal">
+            <h3>
+              <span class="logo-group">
+                <span class="logo-box"><img src="html.png" alt="HTML logo" /></span>
+                <span class="logo-box"><img src="css.jpg" alt="CSS logo" /></span>
+                <span class="logo-box"><img src="javascript.png" alt="JavaScript logo" /></span>
+              </span>
+              HTML, CSS &amp; JS
+            </h3>
+            <p>Building responsive, interactive and user-friendly websites with modern web technologies.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="skill-meter"><span>Proficiency</span><span class="skill-bar-text">85%</span></div>
+            <div class="skill-bar"><div class="progress-bar" data-width="85"></div></div>
+          </div>
+
+          <div class="card reveal">
+            <h3>
+              <span class="logo-group">
+                <span class="logo-box"><i class="fa-solid fa-file-word" style="color:#2b579a"></i></span>
+                <span class="logo-box"><i class="fa-solid fa-file-excel" style="color:#217346"></i></span>
+                <span class="logo-box"><i class="fa-solid fa-file-powerpoint" style="color:#d24726"></i></span>
+              </span>
+              MS Office
+            </h3>
+            <p>Proficient in Word, Excel and PowerPoint for documentation, data work and presentations.</p>
+            <div class="tags"><span>Word</span><span>Excel</span><span>PowerPoint</span></div>
+            <div class="skill-meter"><span>Proficiency</span><span class="skill-bar-text">95%</span></div>
+            <div class="skill-bar"><div class="progress-bar" data-width="95"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Projects ============ -->
+      <section class="Projects-section" id="project">
+        <h2 class="section-title reveal">My <span>Projects</span></h2>
+        <div class="card featured-project reveal">
+          <div class="featured-head">
+            <div class="project-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <div>
+              <span class="badge"><i class="fa-solid fa-star"></i> Featured Project</span>
+              <h3>LegalGuard AI</h3>
+            </div>
+          </div>
+          <p>
+            An AI-powered legal document analyser. Upload a contract as a PDF or image and LegalGuard reads it
+            (OCR in English &amp; Hindi), splits it into clauses, flags risky terms like auto-renewal, hidden fees
+            or one-sided liability, and uses an LLM to explain each clause in simple language with a risk score.
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-file-pdf"></i> PDF &amp; image upload with OCR (English + Hindi)</li>
+            <li><i class="fa-solid fa-triangle-exclamation"></i> Red-flag detection for risky clauses</li>
+            <li><i class="fa-solid fa-robot"></i> LLM explanations &amp; risk scoring (Groq, Llama 3.1)</li>
+            <li><i class="fa-solid fa-user-lock"></i> User login with saved analysis history</li>
+          </ul>
+          <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>LLM (Groq)</span><span>MongoDB</span>
+            <span>Tesseract OCR</span><span>Docker</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/akshat505/legalguard-ai" target="_blank" rel="noopener" class="btn-primary"><i class="fa-brands fa-github"></i> View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="card featured-project reveal">
+          <div class="featured-head">
+            <div class="project-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div>
+              <span class="badge"><i class="fa-solid fa-users"></i> Team Project &middot; 2 Members</span>
+              <h3>Agentic AI System for Automated Software Development</h3>
+            </div>
+          </div>
+          <p>
+            An Agentic AI system that automates and structures the software development lifecycle using multiple
+            collaborative AI agents &mdash; a structured, multi-role workflow instead of relying on a single prompt response.
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-clipboard-list"></i> <span><strong>Project Manager Agent</strong> &ndash; understands requirements, breaks them into tasks and creates a development plan</span></li>
+            <li><i class="fa-solid fa-code"></i> <span><strong>Coder Agent</strong> &ndash; converts the plan into clean, functional source code</span></li>
+            <li><i class="fa-solid fa-bug"></i> <span><strong>Tester Agent</strong> &ndash; evaluates and tests the code, identifying errors and issues</span></li>
+            <li><i class="fa-solid fa-shield-halved"></i> <span><strong>Local AI</strong> &ndash; LLMs run locally via Ollama for an offline-first, privacy-focused approach</span></li>
+          </ul>
+          <div class="tags">
+            <span>Python</span><span>LangChain</span><span>Ollama</span><span>DeepSeek-V2</span>
+            <span>Agentic AI</span><span>Artificial Intelligence</span><span>Software Development</span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="card project-card reveal">
+            <div class="project-icon"><i class="fa-solid fa-shirt"></i></div>
+            <h3>E-Commerce Clothing Website</h3>
+            <p>A responsive online clothing store with product listings, categories and a shopping cart, designed for a smooth shopping experience on every device.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <div class="card project-card reveal">
+            <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Sentiment Analysis of Financial Market</h3>
+            <p>Analyses financial news and social media text to classify market sentiment as positive, negative or neutral, helping to understand market mood.</p>
+            <div class="tags"><span>Python</span><span>Machine Learning</span><span>NLP</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Contact ============ -->
+      <section class="contact-form" id="contact">
+        <h2 class="section-title reveal">Contact <span>Me</span></h2>
+        <div class="main reveal">
+          <div class="content3">
+            <h3>Get In <span>Touch</span></h3>
+            <form id="contactForm">
+              <input type="text" name="name" placeholder="Enter Your Name" required />
+              <input type="email" name="email" placeholder="Enter Your Email" required />
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn">Send <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+          </div>
+          <div class="form-img">
+            <img src="contact.jpg" alt="Contact illustration" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="tel:9310037371" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="http://www.linkedin.com/in/akshat-jain-5a17a2301" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:akshat01.aj@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p>Designed and Developed by Akshat Jain</p>
+      <p>&copy; <span id="year">2026</span> Akshat Jain. All rights reserved.</p>
+    </footer>
+
+    <a href="#about" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      // Typing animation
+      new Typed("#element", {
+        strings: ["Web Developer", "Python Developer", "Video Editor"],
+        typeSpeed: 60,
+        backSpeed: 35,
+        backDelay: 1400,
+        loop: true,
+      });
+
+      // Mobile menu
+      const menuToggle = document.getElementById("menuToggle");
+      const navLinks = document.getElementById("navLinks");
+      menuToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+      navLinks.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => navLinks.classList.remove("open"))
+      );
+
+      // Navbar shadow + back-to-top button on scroll
+      const navbar = document.getElementById("navbar");
+      const backToTop = document.getElementById("backToTop");
+      window.addEventListener("scroll", () => {
+        navbar.classList.toggle("scrolled", window.scrollY > 30);
+        backToTop.classList.toggle("show", window.scrollY > 500);
+      });
+
+      // Reveal on scroll + animate skill bars
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("visible");
+            const bar = entry.target.querySelector(".progress-bar");
+            if (bar) bar.style.width = bar.dataset.width + "%";
+            observer.unobserve(entry.target);
+          });
+        },
+        { threshold: 0.15 }
+      );
+      document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+      // Contact form: opens the visitor's email app with the message filled in
+      document.getElementById("contactForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const f = e.target;
+        const subject = encodeURIComponent("Portfolio message from " + f.name.value);
+        const body = encodeURIComponent(f.message.value + "\n\nFrom: " + f.name.value + " (" + f.email.value + ")");
+        window.location.href = "mailto:akshat01.aj@gmail.com?subject=" + subject + "&body=" + body;
+      });
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
